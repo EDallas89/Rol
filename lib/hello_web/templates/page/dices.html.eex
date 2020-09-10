@@ -1,0 +1,4 @@
+<section class="phx-hero">
+  <h1><%= gettext "Welcome to %{name}!", name: "Rol" %></h1>
+  <h1>El resultado de la tirada es: <%= Dices.main("1d20") |> Enum.join(", ") %></h1>
+</section>
